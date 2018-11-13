@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SUST Diary</string>
+    <string name="action_settings">Settings</string>
+    <string name="about">About</string>
+    <string name="administration">Administration</string>
+    <string name="faculty">Faculty</string>
+    <string name="holiday">Holidays</string>
+    <string name="institute_and_center">Institute and Center</string>
+    <string name="location">Location</string>
+    <string name="developed_by_cse_sust">Developed by CSE, SUST</string>
+</resources>
