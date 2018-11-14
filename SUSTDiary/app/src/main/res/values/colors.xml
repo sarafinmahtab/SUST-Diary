@@ -3,4 +3,19 @@
     <color name="colorPrimary">#004890</color>
     <color name="colorPrimaryDark">#e7196dc1</color>
     <color name="colorAccent">#b71c1c</color>
+
+    <color name="textColor">#212121</color>
+
+    <color name="transparentLayer">#4defefef</color>
+
+    <color name="ovalSelectorColor">#8af5f5f5</color>
+    <color name="blue">#196dc1</color>
+
+    <color name="lightWhite">#efebe9</color>
+
+    <color name="lineGrey">#ece4e4e4</color>
+    <color name="lineGreyDark">#75757575</color>
+
+    <color name="grey">#eccecccc</color>
+
 </resources>

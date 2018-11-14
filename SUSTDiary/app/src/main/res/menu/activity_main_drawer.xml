@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_faculty"
+            android:icon="@drawable/ic_faculty"
+            android:title="@string/faculty" />
+        <item
+            android:id="@+id/nav_administration"
+            android:icon="@drawable/ic_administration"
+            android:title="@string/administration" />
+        <item
+            android:id="@+id/nav_institute_and_center"
+            android:icon="@drawable/ic_institute_and_center"
+            android:title="@string/institute_and_center" />
+        <item
+            android:id="@+id/nav_holidays"
+            android:icon="@drawable/ic_holidays"
+            android:title="@string/holiday" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="@string/about" />
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_location"
+            android:title="@string/location" />
+    </group>
+
+    <!--<item android:title="@string/more">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>

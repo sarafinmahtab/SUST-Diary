@@ -1,11 +1,35 @@
 <resources>
     <string name="app_name">SUST Diary</string>
-    <string name="action_settings">Settings</string>
-    <string name="about">About</string>
-    <string name="administration">Administration</string>
-    <string name="faculty">Faculty</string>
-    <string name="holiday">Holidays</string>
-    <string name="institute_and_center">Institute and Center</string>
-    <string name="location">Location</string>
+
     <string name="developed_by_cse_sust">Developed by CSE, SUST</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="more">More</string>
+
+
+    <string name="faculty">Faculty</string>
+    <string name="administration">Administration</string>
+    <string name="institute_and_center">Institute and Center</string>
+    <string name="holiday">Holidays</string>
+    <string name="about">About</string>
+    <string name="location">Location</string>
+
+    <string-array name="nav_item_titles">
+        <item>Faculty</item>
+        <item>Administration</item>
+        <item>Institute and Center</item>
+        <item>Holidays</item>
+        <item>About</item>
+        <item>Location</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="shahjalal_university_of_science_and_technology">Shahjalal University of Science and Technology</string>
 </resources>

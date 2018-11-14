@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparentLayer"
+    android:padding="12dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/sust_logo_at_nav"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="12dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/sust_logo"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/sust_fullname_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/sust_logo_at_nav"
+        android:gravity="center"
+        android:text="@string/shahjalal_university_of_science_and_technology"
+        android:textColor="@color/textColor"
+        android:fontFamily="@font/oswald_regular" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/sust_fullname_text"
+        android:background="@color/lineGreyDark">
+    </View>
+</RelativeLayout>
