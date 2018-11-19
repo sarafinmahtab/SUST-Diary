@@ -14,9 +14,9 @@ import edu.sust.sustdiary.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class FacultyFragment extends Fragment {
+public class OfficeFragment extends Fragment {
 
-    public FacultyFragment() {
+    public OfficeFragment() {
         // Required empty public constructor
     }
 
@@ -24,7 +24,7 @@ public class FacultyFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_faculty, container, false);
+        return inflater.inflate(R.layout.fragment_office, container, false);
     }
 
     @Override

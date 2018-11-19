@@ -5,12 +5,20 @@
     <color name="colorAccent">#b71c1c</color>
 
     <color name="textColor">#212121</color>
+    <color name="textColorLight">#424242</color>
+
+    <color name="orange">#ff9e1b</color>
 
     <color name="transparentLayer">#4defefef</color>
 
+    <color name="fancyButtonFocusedColor">#eaf1fb</color>
+
+    <color name="linearBackground">#bcededed</color>
     <color name="ovalSelectorColor">#8af5f5f5</color>
     <color name="blue">#196dc1</color>
 
+    <color name="transparent">#00ffffff</color>
+    <color name="white">#ffffff</color>
     <color name="lightWhite">#efebe9</color>
 
     <color name="lineGrey">#ece4e4e4</color>

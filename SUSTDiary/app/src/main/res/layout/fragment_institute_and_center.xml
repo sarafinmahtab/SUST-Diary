@@ -1,14 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.InstituteAndCenterFragment">
+    tools:context=".fragments.InstituteAndCenterFragment" >
 
-    <TextView
-        android:layout_width="wrap_content"
+    <ImageView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="@string/institute_and_center" />
+        android:layout_gravity="center"
+        android:src="@drawable/sust_logo"
+        android:alpha="0.1"
+        tools:ignore="ContentDescription" />
 
-</RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="University Research Centre"
+            android:textColor="@color/textColorLight"
+            android:textSize="18sp"
+            android:fontFamily="@font/oswald_regular" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/lineGreyDark" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Centre of Excellence"
+            android:textColor="@color/textColorLight"
+            android:textSize="18sp"
+            android:fontFamily="@font/oswald_regular" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/lineGreyDark" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Institute of Modern Languages"
+            android:textColor="@color/textColorLight"
+            android:textSize="18sp"
+            android:fontFamily="@font/oswald_regular" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/lineGreyDark" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Institutional Quality Assurance Cell"
+            android:textColor="@color/textColorLight"
+            android:textSize="18sp"
+            android:fontFamily="@font/oswald_regular" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/lineGreyDark" />
+
+    </LinearLayout>
+
+</FrameLayout>

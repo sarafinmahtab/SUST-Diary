@@ -17,23 +17,25 @@ import android.widget.TextView;
 
 import edu.sust.sustdiary.fragments.AboutFragment;
 import edu.sust.sustdiary.fragments.AdministrationFragment;
-import edu.sust.sustdiary.fragments.FacultyFragment;
+import edu.sust.sustdiary.fragments.DepartmentFragment;
 import edu.sust.sustdiary.fragments.HolidayFragment;
 import edu.sust.sustdiary.fragments.InstituteAndCenterFragment;
 import edu.sust.sustdiary.fragments.LocationFragment;
+import edu.sust.sustdiary.fragments.OfficeFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     // tags used to attach the fragments
-    private static final String TAG_FACULTY = "faculty";
+    private static final String TAG_DEPARTMENTS = "departments";
     private static final String TAG_ADMINISTRATION = "admin";
     private static final String TAG_INSTITUTE_AND_CENTER = "institute";
+    private static final String TAG_OFFICES = "offices";
     private static final String TAG_HOLIDAYS = "holidays";
     private static final String TAG_ABOUT = "about";
     private static final String TAG_LOCATION = "location";
 
-    public static String CURRENT_TAG = TAG_FACULTY;
+    public static String CURRENT_TAG = TAG_DEPARTMENTS;
 
     private String[] activityTitles;
 
@@ -61,7 +63,7 @@ public class MainActivity extends AppCompatActivity
 
         if (savedInstanceState == null) {
             navItemIndex = 0;
-            CURRENT_TAG = TAG_FACULTY;
+            CURRENT_TAG = TAG_DEPARTMENTS;
             loadHomeFragment();
         }
     }
@@ -78,9 +80,9 @@ public class MainActivity extends AppCompatActivity
                 //Check to see which item was being clicked and perform appropriate action
                 switch (menuItem.getItemId()) {
                     //Replacing the main content with ContentFragment Which is our Inbox View;
-                    case R.id.nav_faculty:
+                    case R.id.nav_departments:
                         navItemIndex = 0;
-                        CURRENT_TAG = TAG_FACULTY;
+                        CURRENT_TAG = TAG_DEPARTMENTS;
                         break;
                     case R.id.nav_administration:
                         navItemIndex = 1;
@@ -90,16 +92,20 @@ public class MainActivity extends AppCompatActivity
                         navItemIndex = 2;
                         CURRENT_TAG = TAG_INSTITUTE_AND_CENTER;
                         break;
-                    case R.id.nav_holidays:
+                    case R.id.nav_offices:
                         navItemIndex = 3;
+                        CURRENT_TAG = TAG_OFFICES;
+                        break;
+                    case R.id.nav_holidays:
+                        navItemIndex = 4;
                         CURRENT_TAG = TAG_HOLIDAYS;
                         break;
                     case R.id.nav_about:
-                        navItemIndex = 4;
+                        navItemIndex = 5;
                         CURRENT_TAG = TAG_ABOUT;
                         break;
                     case R.id.nav_location:
-                        navItemIndex = 5;
+                        navItemIndex = 6;
                         CURRENT_TAG = TAG_LOCATION;
                         break;
 //                    case R.id.nav_about_us:
@@ -201,24 +207,35 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_faculty) {
-            navItemIndex = 0;
-            CURRENT_TAG = TAG_FACULTY;
-        } else if (id == R.id.nav_administration) {
-            navItemIndex = 1;
-            CURRENT_TAG = TAG_ADMINISTRATION;
-        } else if (id == R.id.nav_institute_and_center) {
-            navItemIndex = 2;
-            CURRENT_TAG = TAG_INSTITUTE_AND_CENTER;
-        } else if (id == R.id.nav_holidays) {
-            navItemIndex = 3;
-            CURRENT_TAG = TAG_HOLIDAYS;
-        } else if (id == R.id.nav_about) {
-            navItemIndex = 4;
-            CURRENT_TAG = TAG_ABOUT;
-        } else if (id == R.id.nav_location) {
-            navItemIndex = 5;
-            CURRENT_TAG = TAG_LOCATION;
+        switch (id) {
+            case R.id.nav_departments:
+                navItemIndex = 0;
+                CURRENT_TAG = TAG_DEPARTMENTS;
+                break;
+            case R.id.nav_administration:
+                navItemIndex = 1;
+                CURRENT_TAG = TAG_ADMINISTRATION;
+                break;
+            case R.id.nav_institute_and_center:
+                navItemIndex = 2;
+                CURRENT_TAG = TAG_INSTITUTE_AND_CENTER;
+                break;
+            case R.id.nav_offices:
+                navItemIndex = 3;
+                CURRENT_TAG = TAG_OFFICES;
+                break;
+            case R.id.nav_holidays:
+                navItemIndex = 4;
+                CURRENT_TAG = TAG_HOLIDAYS;
+                break;
+            case R.id.nav_about:
+                navItemIndex = 5;
+                CURRENT_TAG = TAG_ABOUT;
+                break;
+            case R.id.nav_location:
+                navItemIndex = 6;
+                CURRENT_TAG = TAG_LOCATION;
+                break;
         }
 
         drawerLayout.closeDrawer(GravityCompat.START);
@@ -268,19 +285,21 @@ public class MainActivity extends AppCompatActivity
     private Fragment getFragment() {
         switch (navItemIndex) {
             case 0:
-                return new FacultyFragment();
+                return new DepartmentFragment();
             case 1:
                 return new AdministrationFragment();
             case 2:
                 return new InstituteAndCenterFragment();
             case 3:
-                return new HolidayFragment();
+                return new OfficeFragment();
             case 4:
-                return new AboutFragment();
+                return new HolidayFragment();
             case 5:
+                return new AboutFragment();
+            case 6:
                 return new LocationFragment();
             default:
-                return new FacultyFragment();
+                return new DepartmentFragment();
         }
     }
 

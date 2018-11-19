@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:background="@drawable/dialog_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp" >
+
+        <ImageButton
+            android:id="@+id/dialog_close_button"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="end"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:scaleType="centerInside"
+            android:layout_marginRight="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/circle_icon_selector"
+            android:src="@drawable/ic_cancel"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:id="@+id/dialog_teacher_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dialog_close_button"
+            android:text="M. Jahirul Islam, PhD., PEng."
+            android:textColor="@color/textColor"
+            android:textSize="18sp"
+            android:fontFamily="@font/oswald_regular" />
+
+        <TextView
+            android:id="@+id/dialog_designation_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dialog_teacher_name_text"
+            android:text="Professor"
+            android:textSize="16sp"
+            android:textColor="@color/textColorLight"
+            android:fontFamily="@font/oswald_regular" />
+
+        <TextView
+            android:id="@+id/contact_info_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/dialog_designation_text"
+            android:text="@string/contact_information"
+            android:fontFamily="@font/oswald_regular" />
+
+        <View
+            android:id="@+id/vertical_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_below="@+id/contact_info_text"
+            android:background="@color/colorPrimaryDark" />
+
+        <!-- Office Address -->
+        <LinearLayout
+            android:id="@+id/office_address_full_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vertical_line"
+            android:orientation="vertical"
+            android:background="?attr/selectableItemBackground"
+            android:padding="2dp" >
+
+            <TextView
+                android:id="@+id/office_address_header_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/office_address"
+                android:textSize="12sp"
+                android:fontFamily="@font/oswald_regular" />
+
+            <TextView
+                android:id="@+id/office_address_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="Room: 213, Dept. of CSE, M A Wazed Miah IICT Building, SUST"
+                android:textColor="@color/textColor"
+                android:textSize="16sp"
+                android:fontFamily="@font/oswald_regular" />
+
+        </LinearLayout>
+
+        <!-- Email Layout -->
+        <LinearLayout
+            android:id="@+id/email_full_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/office_address_full_layout"
+            android:orientation="vertical"
+            android:background="?attr/selectableItemBackground"
+            android:weightSum="4"
+            android:padding="2dp" >
+
+            <TextView
+                android:id="@+id/email_header_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:textSize="12sp"
+                android:fontFamily="@font/oswald_regular" />
+
+            <LinearLayout
+                android:id="@+id/sust_email_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/sust_email_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:layout_gravity="center"
+                    android:text="jahir-cse@sust.edu"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/oswald_regular" />
+
+                <ImageButton
+                    android:id="@+id/email_button"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_email"
+                    android:background="@android:color/transparent"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/personal_email_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/personal_email_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:layout_gravity="center"
+                    android:text="jahir.sust@gmail.com"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/oswald_regular" />
+
+                <ImageButton
+                    android:id="@+id/personal_email_button"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_email"
+                    android:background="@android:color/transparent"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Phone Layout -->
+        <LinearLayout
+            android:id="@+id/number_full_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email_full_layout"
+            android:orientation="vertical"
+            android:background="?attr/selectableItemBackground"
+            android:weightSum="4"
+            android:padding="2dp" >
+
+            <TextView
+                android:id="@+id/number_header_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phone"
+                android:textSize="12sp"
+                android:fontFamily="@font/oswald_regular" />
+
+            <LinearLayout
+                android:id="@+id/phone_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/phone_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:layout_gravity="center"
+                    android:text="+880-821-713850"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/oswald_regular" />
+
+                <ImageButton
+                    android:id="@+id/phone_button"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_phone"
+                    android:background="@android:color/transparent"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mobile_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/mobile_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:layout_gravity="center"
+                    android:text="+01717777777"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/oswald_regular" />
+
+                <ImageButton
+                    android:id="@+id/mobile_button"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:scaleType="center"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_phone"
+                    android:background="@android:color/transparent"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

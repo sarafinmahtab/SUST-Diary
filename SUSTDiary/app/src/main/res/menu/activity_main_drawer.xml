@@ -5,9 +5,9 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_faculty"
-            android:icon="@drawable/ic_faculty"
-            android:title="@string/faculty" />
+            android:id="@+id/nav_departments"
+            android:icon="@drawable/ic_department"
+            android:title="@string/departments" />
         <item
             android:id="@+id/nav_administration"
             android:icon="@drawable/ic_administration"
@@ -16,6 +16,10 @@
             android:id="@+id/nav_institute_and_center"
             android:icon="@drawable/ic_institute_and_center"
             android:title="@string/institute_and_center" />
+        <item
+            android:id="@+id/nav_offices"
+            android:icon="@drawable/ic_office"
+            android:title="@string/offices" />
         <item
             android:id="@+id/nav_holidays"
             android:icon="@drawable/ic_holidays"

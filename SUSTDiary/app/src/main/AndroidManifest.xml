@@ -28,6 +28,19 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="edu.sust.sustdiary.SplashScreenActivity" />
         </activity>
+        <activity
+            android:name=".TeacherListActivity"
+            android:label="@string/title_activity_teacher_list"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.sust.sustdiary.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
