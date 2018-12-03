@@ -47,7 +47,7 @@
         <View
             android:id="@+id/vertical_line"
             android:layout_width="match_parent"
-            android:layout_height="2dp"
+            android:layout_height="1dp"
             android:layout_below="@+id/contact_info_text"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
@@ -125,11 +125,11 @@
 
                 <ImageButton
                     android:id="@+id/email_button"
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
+                    android:layout_width="50dp"
+                    android:layout_height="35dp"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:background="@android:color/transparent"
+                    android:background="@drawable/circle_icon_selector"
                     android:scaleType="center"
                     android:src="@drawable/ic_email"
                     tools:ignore="ContentDescription" />
@@ -159,11 +159,11 @@
 
                 <ImageButton
                     android:id="@+id/personal_email_button"
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
+                    android:layout_width="50dp"
+                    android:layout_height="35dp"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:background="@android:color/transparent"
+                    android:background="@drawable/circle_icon_selector"
                     android:scaleType="center"
                     android:src="@drawable/ic_email"
                     tools:ignore="ContentDescription" />
@@ -195,9 +195,10 @@
                 android:id="@+id/phone_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
                 android:orientation="horizontal"
-                android:paddingTop="4dp"
-                android:paddingBottom="4dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
                 android:weightSum="4">
 
                 <TextView
@@ -213,11 +214,11 @@
 
                 <ImageButton
                     android:id="@+id/phone_button"
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
+                    android:layout_width="50dp"
+                    android:layout_height="35dp"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:background="@android:color/transparent"
+                    android:background="@drawable/circle_icon_selector"
                     android:scaleType="center"
                     android:src="@drawable/ic_phone"
                     tools:ignore="ContentDescription" />
@@ -228,9 +229,10 @@
                 android:id="@+id/mobile_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
                 android:orientation="horizontal"
-                android:paddingTop="4dp"
-                android:paddingBottom="4dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
                 android:weightSum="4">
 
                 <TextView
@@ -246,11 +248,11 @@
 
                 <ImageButton
                     android:id="@+id/mobile_button"
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
+                    android:layout_width="50dp"
+                    android:layout_height="35dp"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:background="@android:color/transparent"
+                    android:background="@drawable/circle_icon_selector"
                     android:scaleType="center"
                     android:src="@drawable/ic_phone"
                     tools:ignore="ContentDescription" />
@@ -300,11 +302,11 @@
 
                 <ImageButton
                     android:id="@+id/site_button"
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
+                    android:layout_width="50dp"
+                    android:layout_height="35dp"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:background="@android:color/transparent"
+                    android:background="@drawable/circle_icon_selector"
                     android:scaleType="center"
                     android:src="@drawable/ic_website"
                     tools:ignore="ContentDescription" />

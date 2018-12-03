@@ -10,7 +10,6 @@ import android.util.Log;
 import android.widget.TextView;
 
 import com.google.gson.Gson;
-import com.google.gson.JsonArray;
 import com.google.gson.reflect.TypeToken;
 
 import org.json.JSONArray;
@@ -25,8 +24,6 @@ import edu.sust.diary.adapters.TeacherListAdapter;
 import edu.sust.diary.models.realm.Teachers;
 
 public class TeacherListActivity extends AppCompatActivity {
-
-    private List<Teachers> teachersList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,7 +49,7 @@ public class TeacherListActivity extends AppCompatActivity {
 
     private void initViewsAndObjects() {
 
-        teachersList = new ArrayList<>();
+        List<Teachers> teachersList = new ArrayList<>();
 
         teacherRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         teacherRecyclerView.addItemDecoration(
@@ -81,7 +78,7 @@ public class TeacherListActivity extends AppCompatActivity {
                 teachersList.add(teacher);
             }
 
-            TeacherListAdapter teacherListAdapter = new TeacherListAdapter(this, teachersList);
+            TeacherListAdapter teacherListAdapter = new TeacherListAdapter(this, deptCode, teachersList);
             teacherRecyclerView.setAdapter(teacherListAdapter);
 
         } catch (JSONException e) {

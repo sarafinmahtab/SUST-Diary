@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#004890</color>
-    <color name="colorPrimaryDark">#e7196dc1</color>
+    <color name="colorPrimaryDark">#000000</color>
     <color name="colorAccent">#b71c1c</color>
 
     <color name="ic_launcher_background">#00ffffff</color>
@@ -16,7 +16,7 @@
     <color name="fancyButtonFocusedColor">#eaf1fb</color>
 
     <color name="linearBackground">#bcededed</color>
-    <color name="ovalSelectorColor">#8af5f5f5</color>
+    <color name="ovalSelectorColor">#e4e9e8e8</color>
     <color name="blue">#196dc1</color>
 
     <color name="transparent">#00ffffff</color>
