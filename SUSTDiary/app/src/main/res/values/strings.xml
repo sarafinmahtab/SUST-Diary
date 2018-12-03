@@ -39,6 +39,8 @@
     <string name="office_address">Office Address</string>
     <string name="email">Email</string>
     <string name="phone">Phone</string>
+    <string name="search">Search</string>
+    <string name="website">Website</string>
 
 
 </resources>

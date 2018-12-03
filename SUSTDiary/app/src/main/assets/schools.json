@@ -1,0 +1,444 @@
+{
+    "status": "okay",
+    "schools":[
+        {
+            "name":"School of Agriculture & Mineral Sciences",
+            "departments":[
+                {
+                    "name":"Forestry & Environmental Science",
+                    "code":"FES",
+                    "teachers":[
+
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"School of Applied Science & Technology",
+            "departments":[
+                {
+                    "name":"Architecture",
+                    "code":"ARC",
+                    "teachers":[
+                        {
+                            "name":"Md Mostafizur Rahman",
+                            "designation":"Associate Professor",
+                            "address":"",
+                            "mail":"mostafiz-arc@sust.edu",
+                            "personal":"",
+                            "phone":"",
+                            "mobile":"01711324590",
+                            "website":"",
+                            "leave":true
+                        },
+                        {
+                            "name":"Md Mustafizur Rahman",
+                            "designation":"Associate Professor",
+                            "address":"",
+                            "mail":"",
+                            "personal":"mustafiz_su@yahoo.com",
+                            "phone":"",
+                            "mobile":"01712127544",
+                            "website":"",
+                            "leave":true
+                        },
+                        {
+                            "name":"Iftekhar Rahman",
+                            "designation":"Associate Professor",
+                            "address":"",
+                            "mail":"ifti48buet-arc@sust.edu",
+                            "personal":"ifti48buet@gmail.com",
+                            "phone":"",
+                            "mobile":"",
+                            "website":"",
+                            "leave":true
+                        },
+                        {
+                            "name":"K Taufiq Elahi",
+                            "designation":"Assistant Professor",
+                            "address":"",
+                            "mail":"elahi-arc@yahoo.com",
+                            "personal":"ktaufiqelahi@yahoo.com",
+                            "phone":"",
+                            "mobile":"01786128656",
+                            "website":"",
+                            "leave":false
+                        }
+                    ]
+                },
+                {
+                    "name":"Chemical Engineering & Polymer Science",
+                    "code":"CEP",
+                    "teachers":[
+                        {
+                            "name":"Dr Md Akhtarul Islam",
+                            "designation":"Professor",
+                            "address":"",
+                            "mail":"mislam@sust.edu",
+                            "personal":"islamsust@yahoo.com",
+                            "phone":"880-821-714479",
+                            "mobile":"01712071966",
+                            "website":"",
+                            "leave":false
+                        },
+                        {
+                            "name":"Dr Mohammed Mastabur Rahman",
+                            "designation":"Professor",
+                            "address":"",
+                            "mail":"mrahman-cep@sust.edu",
+                            "personal":"mrahmanbsb@gmail.com",
+                            "phone":"880-821-713850",
+                            "mobile":"01711739130",
+                            "website":"",
+                            "leave":false
+                        }
+                    ]
+                },
+                {
+                    "name":"Civil & Environmental Engineering",
+                    "code":"CEE",
+                    "teachers":[
+                        {
+                            "name":"Dr. Mohammod Aktarul Islam Chowdhury",
+                            "designation":"Professor",
+                            "address":"",
+                            "mail":"",
+                            "personal":"maicee@gmail.com",
+                            "phone":"880-821-713491",
+                            "mobile":"",
+                            "website":"",
+                            "leave":false
+                        },
+                        {
+                            "name":"Dr. Md. Jahir Bin Alam",
+                            "designation":"Professor",
+                            "address":"",
+                            "mail":"",
+                            "personal":"jahiralam@yahoo.com",
+                            "phone":"880-821-713491",
+                            "mobile":"01712091181",
+                            "website":"",
+                            "leave":false
+                        }
+                    ]
+                },
+                {
+                    "name":"Computer Science & Engineering",
+                    "code":"CSE",
+                    "teachers":[
+                        {
+                            "name":"Dr Muhammed Zafar Iqbal",
+                            "designation":"Professor",
+                            "address":"Room no: 324, Department of Computer Science and Engineering, Dr. M. A. Wazed Miah IICT Building, Shahjalal University of Science and Technology, Sylhet-3114",
+                            "mail":"mzi@sust.edu",
+                            "personal":"",
+                            "phone":"880-821-713850",
+                            "mobile":"",
+                            "website":"",
+                            "leave":false
+                        },
+                        {
+                            "name":"Dr Mohammad Shahidur Rahman",
+                            "designation":"Professor",
+                            "address":"Room: 321, Dept. of CSE, Dr. M.A. Wazed Miah IICT Building, SUST",
+                            "mail":"rahmanms@sust.edu",
+                            "personal":"rahmanms.bd@gmail.com",
+                            "phone":"880-821-713491",
+                            "mobile":"01914930807",
+                            "website":"",
+                            "leave":false
+                        },
+                        {
+                            "name":"Dr Mohammad Reza Selim",
+                            "designation":"Professor",
+                            "address":"Room: 320, Dept. of CSE, Dr. M.A. Wazed Miah IICT Building, SUST",
+                            "mail":"selim@sust.edu",
+                            "personal":"",
+                            "phone":"",
+                            "mobile":"01972357830",
+                            "website":"",
+                            "leave":false
+                        },
+                        {
+                            "name":"M. Jahirul Islam, PhD., PEng.",
+                            "designation":"Professor",
+                            "address":"Room: 321, Dept. of CSE, Dr. M.A. Wazed Miah IICT Building, SUST",
+                            "mail":"jahir-cse@sust.edu",
+                            "personal":"",
+                            "phone":"880-821-713850",
+                            "mobile":"",
+                            "website":"",
+                            "leave":false
+                        },
+                        {
+                            "name":"Mohammad Abdullah Al Mumin",
+                            "designation":"Associate Professor",
+                            "address":"",
+                            "mail":"mumin-cse@sust.edu",
+                            "personal":"",
+                            "phone":"",
+                            "mobile":"01711445110",
+                            "website":"",
+                            "leave":true
+                        },
+                        {
+                            "name":"Md Masum",
+                            "designation":"Associate Professor",
+                            "address":"Room: 321, Dept. of CSE, Dr. M.A. Wazed Miah IICT Building, SUST",
+                            "mail":"masum-cse@sust.edu",
+                            "personal":"",
+                            "phone":"",
+                            "mobile":"01919736248",
+                            "website":"",
+                            "leave":false
+                        },
+                        {
+                            "name":"Dr. Farida Chowdhury",
+                            "designation":"Associate Professor",
+                            "address": "",
+                            "mail":"",
+                            "personal":"deeba.bd@gmail.com",
+                            "phone":"",
+                            "mobile":"",
+                            "website":"",
+                            "leave":false
+                        },
+                        {
+                            "name":"Md Forhad Rabbi,PhD",
+                            "designation":"Associate Professor",
+                            "address":"Room No: 323, Department of Computer Science and Engineering, Dr. M.A. Wazed Miah IICT Building, Shahjalal University of Science and Technology, Sylhet 3114, Bangladesh",
+                            "mail":"frabbi-cse@sust.edu",
+                            "personal":"",
+                            "phone":"",
+                            "mobile":"01844175805",
+                            "website":"",
+                            "leave":false
+                        },
+                        {
+                            "name":"Mahruba Sharmin Chowdhury",
+                            "designation":"Assistant Professor",
+                            "address":"",
+                            "mail":"mahruba-cse@sust.edu",
+                            "personal":"",
+                            "phone":"",
+                            "mobile":"01917566699",
+                            "website":"",
+                            "leave":false
+                        },
+                        {
+                            "name":"Sabir Ismail",
+                            "designation":"Assistant Professor",
+                            "address":"IICT Building, 1st Floor, Room No: 211, SUST",
+                            "mail":"sabir-cse@sust.edu",
+                            "personal":"sabir.ismail01@gmail.com",
+                            "phone":"",
+                            "mobile":"01753350226",
+                            "website":"",
+                            "leave":true
+                        },
+                        {
+                            "name":"Md Saiful Islam",
+                            "designation":"Assistant Professor",
+                            "address":"Room: 211, Dept. of CSE, Dr. M A Wazed Miah IICT Building, SUST.",
+                            "mail":"saiful-cse@sust.edu",
+                            "personal":"saif.acm@gmail.com",
+                            "phone":"",
+                            "mobile":"01717960979",
+                            "website":"",
+                            "leave":false
+                        },
+                        {
+                            "name":"Biswapriyo Chakrabarty",
+                            "designation":"Assistant Professor",
+                            "address":"Room: 207, 1st Floor, Dr. M A Wazed Miah IICT Building, Shahjalal University of Science and Technology, Sylhet-3114",
+                            "mail":"biswa-cse@sust.edu",
+                            "personal":"",
+                            "phone":"",
+                            "mobile":"01612300990",
+                            "website":"",
+                            "leave":false
+                        },
+                        {
+                            "name":"Md Mahadi Hasan Nahid",
+                            "designation":"Lecturer",
+                            "address":"",
+                            "mail":"nahid-cse@sust.edu",
+                            "personal":"",
+                            "phone":"",
+                            "mobile":"01738150127",
+                            "website":"",
+                            "leave":false
+                        }
+                    ]
+                },
+                {
+                    "name":"Electrical & Electronic Engineering",
+                    "code":"EEE",
+                    "teachers":[
+
+                    ]
+                },
+                {
+                    "name":"Food Engineering & Tea Technology",
+                    "code":"FET",
+                    "teachers":[
+
+                    ]
+                },
+                {
+                    "name":"Industrial & Production Engineering",
+                    "code":"IPE",
+                    "teachers":[
+
+                    ]
+                },
+                {
+                    "name":"Mechanical Engineering",
+                    "code":"MEE",
+                    "teachers":[
+
+                    ]
+                },
+                {
+                    "name":"Petroleum and Mining Engineering",
+                    "code":"PME",
+                    "teachers":[
+
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"School of Life Sciences",
+            "departments":[
+                {
+                    "name":"Biochemistry and Molecular Biology",
+                    "code":"BMB",
+                    "teachers":[
+
+                    ]
+                },
+                {
+                    "name":"Genetic Engineering & Biotechnology",
+                    "code":"GEB",
+                    "teachers":[
+
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"School of Management & Business Administration",
+            "departments":[
+                {
+                    "name":"Business Administration",
+                    "code":"BAN",
+                    "teachers":[
+
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"School of Physical Sciences",
+            "departments":[
+                {
+                    "name":"Chemistry",
+                    "code":"CHE",
+                    "teachers":[
+
+                    ]
+                },
+                {
+                    "name":"Geography and Environment",
+                    "code":"GEE",
+                    "teachers":[
+
+                    ]
+                },
+                {
+                    "name":"Mathematics",
+                    "code":"FES",
+                    "teachers":[
+
+                    ]
+                },
+                {
+                    "name":"Oceanography",
+                    "code":"OCG",
+                    "teachers":[
+
+                    ]
+                },
+                {
+                    "name":"Physics",
+                    "code":"PHY",
+                    "teachers":[
+
+                    ]
+                },
+                {
+                    "name":"Statistics",
+                    "code":"STA",
+                    "teachers":[
+
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"School of Social Sciences",
+            "departments":[
+                {
+                    "name":"Anthropology",
+                    "code":"ANP",
+                    "teachers":[
+
+                    ]
+                },
+                {
+                    "name":"Economics",
+                    "code":"ECO",
+                    "teachers":[
+
+                    ]
+                },
+                {
+                    "name":"English",
+                    "code":"ENG",
+                    "teachers":[
+
+                    ]
+                },
+                {
+                    "name":"Political Studies",
+                    "code":"PSS",
+                    "teachers":[
+
+                    ]
+                },
+                {
+                    "name":"Public Administration",
+                    "code":"PAD",
+                    "teachers":[
+
+                    ]
+                },
+                {
+                    "name":"Social Work",
+                    "code":"SCW",
+                    "teachers":[
+
+                    ]
+                },
+                {
+                    "name":"Sociology",
+                    "code":"SOC",
+                    "teachers":[
+
+                    ]
+                }
+            ]
+        }
+    ]
+}
