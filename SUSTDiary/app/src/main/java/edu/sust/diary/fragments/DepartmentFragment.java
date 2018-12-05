@@ -67,9 +67,7 @@ public class DepartmentFragment extends Fragment {
 
     private RealmList<Schools> getListOfSchool() {
 
-        Realm realm = Realm.getDefaultInstance();
-
-        try {
+        try (Realm realm = Realm.getDefaultInstance()) {
             RealmResults<SchoolsOfDepartments> results = realm
                     .where(SchoolsOfDepartments.class)
                     .findAll();
@@ -77,11 +75,6 @@ public class DepartmentFragment extends Fragment {
             List<SchoolsOfDepartments> schoolsOfDepartmentsList = realm.copyFromRealm(results);
 
             return schoolsOfDepartmentsList.get(0).getSchools();
-
-        } finally {
-            if (realm != null) {
-                realm.close();
-            }
         }
     }
 

@@ -1,5 +1,7 @@
 package edu.sust.diary;
 
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.os.Handler;
@@ -185,8 +187,17 @@ public class MainActivity extends AppCompatActivity
 
 //        View navHeaderView = navigationView.getHeaderView(0);
 
+        SharedPreferences sharedPreferences = getSharedPreferences(Urls.DIARY_SP, MODE_PRIVATE);
+        boolean firstTimeInstalled = sharedPreferences.getBoolean("first_time", true);
 
-        extractJsonDataToRealm();
+        if (firstTimeInstalled) {
+
+            SharedPreferences.Editor editor = sharedPreferences.edit();
+            editor.putBoolean("first_time", false);
+            editor.apply();
+
+            extractJsonDataToRealm();
+        }
     }
 
     private void extractJsonDataToRealm() {
@@ -238,7 +249,8 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_search) {
-            return true;
+            Intent intent = new Intent(this, SearchActivity.class);
+            startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);

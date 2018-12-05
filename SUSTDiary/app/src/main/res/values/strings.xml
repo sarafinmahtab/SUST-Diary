@@ -41,6 +41,8 @@
     <string name="phone">Phone</string>
     <string name="search">Search</string>
     <string name="website">Website</string>
+    <string name="title_activity_search">Search</string>
+    <string name="search_hint">Search a Teacher</string>
 
 
 </resources>
